@@ -225,8 +225,75 @@
 <li><strong>这是加粗</strong><blockquote>
 <p><em>这是斜体</em></p>
 </blockquote>
+<h1 id="一级标题（最大，对应博客标题）"><a href="#一级标题（最大，对应博客标题）" class="headerlink" title="一级标题（最大，对应博客标题）"></a>一级标题（最大，对应博客标题）</h1></li>
+</ul>
+<h2 id="二级标题（章节标题）"><a href="#二级标题（章节标题）" class="headerlink" title="二级标题（章节标题）"></a>二级标题（章节标题）</h2><h3 id="三级标题（小节标题）"><a href="#三级标题（小节标题）" class="headerlink" title="三级标题（小节标题）"></a>三级标题（小节标题）</h3><p><em>斜体文本</em></p>
+<p><strong>加粗文本</strong></p>
+<p><em><strong>斜体+加粗</strong></em></p>
+<p><del>删除线</del></p>
+<h1 id="无序列表（用-）"><a href="#无序列表（用-）" class="headerlink" title="无序列表（用-&#x2F;*&#x2F;+）"></a>无序列表（用-&#x2F;*&#x2F;+）</h1><ul>
+<li><p>项目1</p>
+</li>
+<li><p>项目2</p>
+<ul>
+<li>子项目2.1</li>
+</ul>
 </li>
 </ul>
+<h1 id="有序列表（用数字-点）"><a href="#有序列表（用数字-点）" class="headerlink" title="有序列表（用数字+点）"></a>有序列表（用数字+点）</h1><ol>
+<li><p>步骤1</p>
+</li>
+<li><p>步骤2</p>
+</li>
+</ol>
+<pre><code class="language-bash">
+# 单行代码用`包裹
+
+docker-compose up -d
+
+# 多行代码用```+语言（如bash/yaml）
+
+version: &quot;3&quot;
+
+services:
+
+  emby:
+
+    image: emby/embyserver
+
+```bash
+
+# 单行代码用`包裹
+
+docker-compose up -d
+
+# 多行代码用```+语言（如bash/yaml）
+
+version: &quot;3&quot;
+
+services:
+
+  emby:
+
+    image: emby/embyserver
+
+
+效果：
+
+```bash
+
+docker-compose up -d
+
+
+# 链接
+
+[点击跳转到Docker官网](https://www.docker.com)
+
+# 图片（本地/网络都可以）
+
+![Emby界面截图](http://你的图片链接)
+
+</code></pre>
 
         </div>
 
